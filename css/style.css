@@ -44,15 +44,21 @@ body > h1{
      width: 100%;
 }
 
+img{
+     height: 100%;
+     width: 100%;
+     padding-bottom: 10%;
+}
+
 #media{
      display: flex;
      margin: 0 auto;
-
 }
 
 #space p{
+     padding: 0 15%;
      text-align: center;
-     font-size: 1.5rem;
+     font-size: 1.2rem;
 
 }
 
