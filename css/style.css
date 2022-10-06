@@ -20,23 +20,39 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
 body {
-
+     height: 100vh;
+     text-align: center;
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+
+body > h1{ 
+     padding-top: 5%;
+}
+
+#space{
+     height: 100%;
+     padding-top: 5%;
+}
+
+#space section{
+     display:flex;
+     height: 100%;
+     width: 100%;
+}
+
+#media{
+     display: flex;
+     margin: 0 auto;
 
 }
 
-footer {
+#space p{
+     text-align: center;
+     font-size: 1.5rem;
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
